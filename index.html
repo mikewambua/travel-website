@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Twiga Travel Agency</title>
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--Custom css file link-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<!--Header section starts-->
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>TWIGA </span>Agency</a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search"> 
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+<!--Header section ends-->
+
+<!--Login form container-->
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" name="email" placeholder="Enter your Email">
+        <input type="password" class="box" name="password" placeholder="Enter your Password">
+        <input type="submit" class="btn" value="login now" name="login">
+        <input type="checkbox" name="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+        <p>Forget Password?<a href="#">Click Here</a></p>
+        <p>Don't have an account?<a href="#">Register Now</a></p>
+    </form>
+</div>
+
+<!--Home section starts-->
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Adventure is worthwhile</h3>
+        <p>Discover the earth with us. Nature awaits you!</p>
+        <a href="#" class="btn">Discover More</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="assets/images/vid1.mp4"></span>
+        <span class="vid-btn" data-src="assets/images/vid2.mp4"></span>
+        <span class="vid-btn" data-src="assets/images/vid3.mp4"></span>
+        <span class="vid-btn" data-src="assets/images/vid4.mp4"></span>
+        <span class="vid-btn" data-src="assets/images/vid5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="assets/images/vid1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+<!--Home section ends-->
+
+<!--Book section starts-->
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="assets/images/website.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many?</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div> 
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div> 
+            <div class="inputBox">
+                <input type="submit" class="btn" value="Book Now">
+            </div>      
+        </form>
+    
+    </div>
+
+</section>
+<!--Book section ends-->
+
+<!--Packages section starts-->
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="assets/images/maldives.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Singapore</h3>
+                <p>We are have a fascinating trip to singapore.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$90.00 <span>$130.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="assets/images/lake.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> new guinea</h3>
+                <p>We are have a fascinating trip to new guinea.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$90.00 <span>$130.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="assets/images/ocean.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Hawaii</h3>
+                <p>We are have a fascinating trip to hawaii.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$90.00 <span>$130.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="assets/images/hiking.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Bangkok</h3>
+                <p>We are have a fascinating trip to bangkok.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$90.00 <span>$130.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Packages section ends-->
+
+<!--Services section starts-->
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>we care about your budget.</p>        
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>we provide nutritious foodstuffs.</p>        
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guides</h3>
+            <p>we mind your security.</p>        
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>we help you tour the world.</p>        
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>time is precious, we help manage your time.</p>        
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>we care about your budget.</p>        
+        </div>
+    </div>
+
+</section>
+<!--Services section ends-->
+
+<!--Gallery section starts-->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+    
+        <div class="box">
+            <img src="assets/images/waterfall.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Explore nature amazing places with us</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+         <div class="box">
+            <img src="assets/images/island.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Explore nature amazing places with us</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+         <div class="box">
+            <img src="assets/images/ocean.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Explore nature amazing places with us</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+         <div class="box">
+            <img src="assets/images/beach.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Explore nature amazing places with us</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+         <div class="box">
+            <img src="assets/images/cliff.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Explore nature amazing places with us</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+         <div class="box">
+            <img src="assets/images/mountain.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Explore nature amazing places with us</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!--Gallery section ends-->
+
+<!--Review section starts-->
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/images/team1.png" alt="">
+                    <h3>Michael Kilonzo</h3>
+                    <p>Kilonzo has experience of 5+ years in electrical engineering, website, and android development.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/images/team2.png" alt="">
+                    <h3>Michael Kilonzo</h3>
+                    <p>Kilonzo has experience of 5+ years in electrical engineering, website, and android development.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                
+                </div>
+            </div>
+        
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/images/team3.png" alt="">
+                    <h3>Michael Kilonzo</h3>
+                    <p>Kilonzo has experience of 5+ years in electrical engineering, website, and android development.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/images/team1.png" alt="">
+                    <h3>Michael Kilonzo</h3>
+                    <p>Kilonzo has experience of 5+ years in electrical engineering, website, and android development.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                
+                </div>
+            </div>
+        
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/images/team2.png" alt="">
+                    <h3>Michael Kilonzo</h3>
+                    <p>Kilonzo has experience of 5+ years in electrical engineering, website, and android development.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/images/team3.png" alt="">
+                    <h3>Michael Kilonzo</h3>
+                    <p>Kilonzo has experience of 5+ years in electrical engineering, website, and android development.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<!--Review section ends-->
+
+<!--Contact section starts-->
+
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="assets/images/slide.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        
+        </form>
+    
+    </div>
+
+</section>
+<!--Contact section ends-->
+
+<!--Brand section starts-->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/images/1.png" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/2.png" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/3.png" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/4.png" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/5.png" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/4.png" alt=""></div>
+        </div>
+    </div>
+</section>
+<!--Brand section ends-->
+
+<!--Footer section-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>we are a travel agency committed to providing our clients with long lasting solutions.</p>
+        </div>
+        <div class="box">
+            <h3>branch location</h3>
+            <a href="#">USA</a>
+            <a href="#">Kenya</a>
+            <a href="#">India</a>
+            <a href="#">Australia</a>
+            <a href="#">Britain</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">facebook</a>
+            <a href="#book">twitter</a>
+            <a href="#packages">linkedin</a>
+            <a href="#services">instagram</a>
+        </div>
+    </div>
+    <h1 class="credit">created by <span> plutonix solutions </span> | all rights reserved </h1>
+</section>
+
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js.map"></script>
+
+
+<!-- Custom js file link-->
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
+
